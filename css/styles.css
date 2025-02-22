@@ -372,8 +372,8 @@ img {
 }
 
 .portfolio-list-item {
-  flex-basis: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 .portfolio-list-item:hover,
@@ -463,9 +463,9 @@ img {
 }
 
 .footer-social-links-item {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-link-icon {
